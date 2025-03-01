@@ -122,4 +122,8 @@ userRouter.delete("/user/:id", async (req : Request, res : Response) => {
   } catch (error){
     return res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({error})
   }
+<<<<<<< HEAD
 })
+=======
+})
+>>>>>>> updated
